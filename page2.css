@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #26415e, #83a6ce, #e5c9d7, #c48cb3);
+}
+.birthdaycard{
+  position: relative;
+  width: 250px;
+  height: 350px;
+  transition: 1s;
+  transform: rotate(3deg);
+  padding-bottom: 18px;
+  
+  .cardfront{
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2), 30px 0 50px rgba(0,0,0,0.4);
+  transition: 0.6s;
+  transform: rotate(3deg);
+  }
+  
+  .happy {
+  font-family: Tahoma,Sans-Serif;
+  text-align: center;
+  margin: 15px;
+  background-image: linear-gradient(120deg, pink 0%, #ae7dac 100%);
+  }
+  
+  h3{
+    color: white;
+  }
+  
+  p {
+
+  font-family: "Comic Sans MS", cursive;
+
+  margin: 10px;
+  color: #333;
+  font-size: 11px;
+  }
+  
+  a {
+  font-family: "Brush Script MT", cursive;
+  position: absolute;
+  left: 210px;
+  top: 300px;
+  color: #333;
+}
